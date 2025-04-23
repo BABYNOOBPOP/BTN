@@ -130,28 +130,95 @@ def inject_lib(package):
 
 def inject_lib1(package):
     try:
-        # Alternative injection method
+        # Copy inject and libBangjo.so to /data/local/tmp
+        os.system("cp assets/inject /data/local/tmp/")
         os.system("cp assets/libBangjo.so /data/local/tmp/")
-        os.system("chmod 777 /data/local/tmp/libBangjo.so")
+        os.system("chmod 777 /data/local/tmp/inject")
+        os.system("chmod 777 /data/local/tmp/libBangj.so")
         
         # Start the package activity
         subprocess.run(["am", "start", f"{package}/com.epicgames.ue4.SplashActivity"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         time.sleep(3)
         
-        # Find the process ID
-        pid = subprocess.getoutput(f"pidof {package}")
-        if not pid:
-            print("Process not found!")
-            return
-            
-        # Inject using alternative method
-        os.system(f"su -c 'export LD_PRELOAD=/data/local/tmp/libBangjo.so; kill -CONT {pid}'")
+        # Run the inject command
+        os.system(f"su -c /data/local/tmp/inject -n {package} -so /data/local/tmp/libBangj.so")
         time.sleep(1)
         
         # Clean up
+        os.remove("/data/local/tmp/inject")
         os.remove("/data/local/tmp/libBangj.so")
     except Exception as e:
         print(f"Error during injection: {e}")
+
+def inject_lib2(package):
+    try:
+        # Copy inject and libBangjo.so to /data/local/tmp
+        os.system("cp assets/inject /data/local/tmp/")
+        os.system("cp assets/libBangjo.so /data/local/tmp/")
+        os.system("chmod 777 /data/local/tmp/inject")
+        os.system("chmod 777 /data/local/tmp/libBang.so")
+        
+        # Start the package activity
+        subprocess.run(["am", "start", f"{package}/com.epicgames.ue4.SplashActivity"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        time.sleep(3)
+        
+        # Run the inject command
+        os.system(f"su -c /data/local/tmp/inject -n {package} -so /data/local/tmp/libBang.so")
+        time.sleep(1)
+        
+        # Clean up
+        os.remove("/data/local/tmp/inject")
+        os.remove("/data/local/tmp/libBang.so")
+    except Exception as e:
+        print(f"Error during injection: {e}")
+
+
+def inject_lib3(package):
+    try:
+        # Copy inject and libBangjo.so to /data/local/tmp
+        os.system("cp assets/inject /data/local/tmp/")
+        os.system("cp assets/libBangjo.so /data/local/tmp/")
+        os.system("chmod 777 /data/local/tmp/inject")
+        os.system("chmod 777 /data/local/tmp/libBan.so")
+        
+        # Start the package activity
+        subprocess.run(["am", "start", f"{package}/com.epicgames.ue4.SplashActivity"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        time.sleep(3)
+        
+        # Run the inject command
+        os.system(f"su -c /data/local/tmp/inject -n {package} -so /data/local/tmp/libBan.so")
+        time.sleep(1)
+        
+        # Clean up
+        os.remove("/data/local/tmp/inject")
+        os.remove("/data/local/tmp/libBan.so")
+    except Exception as e:
+        print(f"Error during injection: {e}")
+
+
+def inject_lib4(package):
+    try:
+        # Copy inject and libBangjo.so to /data/local/tmp
+        os.system("cp assets/inject /data/local/tmp/")
+        os.system("cp assets/libBangjo.so /data/local/tmp/")
+        os.system("chmod 777 /data/local/tmp/inject")
+        os.system("chmod 777 /data/local/tmp/libBa.so")
+        
+        # Start the package activity
+        subprocess.run(["am", "start", f"{package}/com.epicgames.ue4.SplashActivity"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        time.sleep(3)
+        
+        # Run the inject command
+        os.system(f"su -c /data/local/tmp/inject -n {package} -so /data/local/tmp/libBa.so")
+        time.sleep(1)
+        
+        # Clean up
+        os.remove("/data/local/tmp/inject")
+        os.remove("/data/local/tmp/libBa.so")
+    except Exception as e:
+        print(f"Error during injection: {e}")
+
+
 
 def random_rainbow_color():
     colors = ['red', 'yellow', 'green', 'cyan', 'blue', 'magenta']
@@ -253,7 +320,7 @@ def main():
     rainbow_banner()
 
     # Step 1: Choose Injection Method
-    methods = ["Method 1", "Method 2"]
+    methods = ["Method 1", "Method 2", "Method 3", "Method 4", "Method 5"]
     rainbow_frame("➤ CHOOSE INJECTION METHOD")
     rainbow_frame("➤",methods)
 
@@ -348,9 +415,21 @@ def main():
     if method_choice == 1:
         print(colored("\nInjecting using Method 1...", 'cyan'))
         inject_lib(selected_package)
-    else:
-        print(colored("\nInjecting using Method 2...", 'cyan'))
+    elif method_choice == 2:
+        print(colored("\nInjecting using Method 1...", 'cyan'))
         inject_lib1(selected_package)
+    elif method_choice == 3:
+        print(colored("\nInjecting using Method 1...", 'cyan'))
+        inject_lib2(selected_package)
+    elif method_choice == 4:
+        print(colored("\nInjecting using Method 1...", 'cyan'))
+        inject_lib3(selected_package)
+    elif method_choice == 5:
+        print(colored("\nInjecting using Method 1...", 'cyan'))
+        inject_lib4(selected_package)
+    else:
+        print(colored("\nInjecting using Method 1...", 'cyan'))
+        inject_lib(selected_package)
 
     print(colored("\n✅ Operation completed successfully!", 'green'))
 
