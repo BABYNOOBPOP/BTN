@@ -1,0 +1,253 @@
+--------- beginning of main
+05-13 12:38:47.776 30108 30108 I shadow.ui:blac: Using CollectorTypeCMC GC.
+05-13 12:38:47.827 30108 30108 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 12236; state: DISABLED
+--------- beginning of system
+05-13 12:38:47.840 30108 30108 D os.SingleLiceFactory: instance successfully. com.transsion.typeface.v1.TypefaceLice@217bd93 from android.graphics.IGraphicLice
+05-13 12:38:47.840 30108 30108 D os.LiceInfo: instance successfully. com.transsion.graphics.GraphicLice@ef8f26d from android.graphics.IGraphicLice
+05-13 12:38:47.856 30108 30108 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+05-13 12:38:47.857 30108 30108 W ziparchive: Unable to open '/data/app/~~UPeGIxiO4VdnuVFtzoBegg==/com.shadow.ui-kcXLgL6Q76J9Xv8A16IAjQ==/base.dm': No such file or directory
+05-13 12:38:47.857 30108 30108 W ziparchive: Unable to open '/data/app/~~UPeGIxiO4VdnuVFtzoBegg==/com.shadow.ui-kcXLgL6Q76J9Xv8A16IAjQ==/base.dm': No such file or directory
+05-13 12:38:48.123 30108 30108 D nativeloader: Configuring clns-4 for other apk /data/app/~~UPeGIxiO4VdnuVFtzoBegg==/com.shadow.ui-kcXLgL6Q76J9Xv8A16IAjQ==/base.apk. target_sdk_version=28, uses_libraries=, library_path=/data/app/~~UPeGIxiO4VdnuVFtzoBegg==/com.shadow.ui-kcXLgL6Q76J9Xv8A16IAjQ==/lib/arm64:/data/app/~~UPeGIxiO4VdnuVFtzoBegg==/com.shadow.ui-kcXLgL6Q76J9Xv8A16IAjQ==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.shadow.ui
+05-13 12:38:48.137 30108 30108 V GraphicsEnvironment: ANGLE Developer option for 'com.shadow.ui' set to: 'default'
+05-13 12:38:48.137 30108 30108 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+05-13 12:38:48.143 30108 30108 I LoadedApk: No resource references to update in package com.transsion.theme.icon
+05-13 12:38:48.145 30108 30108 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+05-13 12:38:48.147 30108 30108 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+05-13 12:38:48.244 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IFingerprintManagerProxy@96d474f
+05-13 12:38:48.248 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IPermissionManagerProxy@4496486
+05-13 12:38:48.255 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IVibratorServiceProxy@8d4a23f
+05-13 12:38:48.257 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IMediaSessionManagerProxy@495f7f8
+05-13 12:38:48.261 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.context.ContentServiceStub@e1c6d0d
+05-13 12:38:48.264 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IGraphicsStatsProxy@d493b0e
+05-13 12:38:48.265 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.ITelephonyManagerProxy@300992f
+05-13 12:38:48.276 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IAutofillManagerProxy@b734f28
+05-13 12:38:48.280 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IActivityClientProxy@68fb37d
+05-13 12:38:48.287 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IMediaRouterServiceProxy@b3d1dca
+05-13 12:38:48.290 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IStorageStatsManagerProxy@5a58017
+05-13 12:38:48.293 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IPackageManagerProxy@d979470
+05-13 12:38:48.304 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IAccessibilityManagerProxy@ee25b0f
+05-13 12:38:48.308 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IUserManagerProxy@bba0746
+05-13 12:38:48.312 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IWifiScannerProxy@1002a3
+05-13 12:38:48.314 30108 30108 D HookManager: hook error: top.niunaijun.blackbox.fake.service.IWifiScannerProxy@1002a3
+05-13 12:38:48.314 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.libcore.OsStub@ddcb91e
+05-13 12:38:48.320 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IActivityManagerProxy@fab1215
+05-13 12:38:48.337 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IDevicePolicyManagerProxy@93a8c64
+05-13 12:38:48.347 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.ISystemUpdateProxy@efe2ac9
+05-13 12:38:48.349 30108 30108 D HookManager: hook error: top.niunaijun.blackbox.fake.service.ISystemUpdateProxy@efe2ac9
+05-13 12:38:48.349 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IAccountManagerProxy@3b7a5ce
+05-13 12:38:48.356 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IStorageManagerProxy@79d090b
+05-13 12:38:48.360 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IWindowManagerProxy@18bd694
+05-13 12:38:48.366 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IPhoneSubInfoProxy@59e8fdf
+05-13 12:38:48.369 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.HCallbackProxy@1aaa48a
+05-13 12:38:48.371 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IDisplayManagerProxy@ce1d571
+05-13 12:38:48.374 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.ILocationManagerProxy@2af3130
+05-13 12:38:48.380 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.ILauncherAppsProxy@66ecf65
+05-13 12:38:48.383 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IWifiManagerProxy@5eb6a06
+05-13 12:38:48.388 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IJobServiceProxy@d40861d
+05-13 12:38:48.390 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.ITelephonyRegistryProxy@2ffb3de
+05-13 12:38:48.392 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IPowerManagerProxy@7cce2db
+05-13 12:38:48.394 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IDeviceIdentifiersPolicyProxy@e053d24
+05-13 12:38:48.396 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IAppWidgetManagerProxy@dc04889
+05-13 12:38:48.399 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IContextHubServiceProxy@a0b679a
+05-13 12:38:48.400 30108 30108 D HookManager: hook error: top.niunaijun.blackbox.fake.service.IContextHubServiceProxy@a0b679a
+05-13 12:38:48.400 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IShortcutManagerProxy@75b7fc1
+05-13 12:38:48.403 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IPersistentDataBlockServiceProxy@dc74ff2
+05-13 12:38:48.404 30108 30108 D HookManager: hook error: top.niunaijun.blackbox.fake.service.IPersistentDataBlockServiceProxy@dc74ff2
+05-13 12:38:48.405 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.INetworkManagementServiceProxy@ccf65f9
+05-13 12:38:48.407 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IVpnManagerProxy@45ceb4a
+05-13 12:38:48.410 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.INotificationManagerProxy@1857797
+05-13 12:38:48.414 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.delegate.AppInstrumentation@2ef99a2
+05-13 12:38:48.415 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.context.RestrictionsManagerStub@61ff633
+05-13 12:38:48.417 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IConnectivityManagerProxy@799991c
+05-13 12:38:48.419 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IActivityTaskManagerProxy@eeff2a1
+05-13 12:38:48.424 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IAppOpsManagerProxy@b5c5320
+05-13 12:38:48.428 30108 30108 D HookManager: hook: top.niunaijun.blackbox.fake.service.IAlarmManagerProxy@c0e629b
+05-13 12:38:48.430 30108 30108 W CheckTime: App running slow: Executing handleBindApplication : makeApplication took 289ms
+05-13 12:38:48.490 30108 30108 D ActivityThread: Loading provider com.shadow.ui.blackbox.SystemCallProvider: top.niunaijun.blackbox.core.system.SystemCallProvider
+05-13 12:38:48.491 30108 30108 D SystemCallProvider: call: VM, Bundle[{_B_|_server_name_=package_manager}]
+05-13 12:38:48.492 30108 30108 D BlackBoxCore: getService: package_manager, top.niunaijun.blackbox.core.system.pm.BPackageManagerService@ab62649
+05-13 12:38:48.501 30108 30126 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=88]
+05-13 12:38:48.504 30083 30083 D BlackBoxCore: getService: activity_manager, android.os.BinderProxy@5eae39b
+05-13 12:38:48.506 30108 30126 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=76]
+05-13 12:38:48.508 30083 30083 D BlackBoxCore: getService: job_manager, android.os.BinderProxy@b3e5338
+05-13 12:38:48.510 30108 30126 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=84]
+05-13 12:38:48.512 30083 30083 D BlackBoxCore: getService: package_manager, android.os.BinderProxy@c34af11
+05-13 12:38:48.514 30108 30126 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=84]
+05-13 12:38:48.516 30083 30083 D BlackBoxCore: getService: storage_manager, android.os.BinderProxy@7ebe876
+05-13 12:38:48.517 30108 30126 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=80]
+05-13 12:38:48.518 30083 30083 D BlackBoxCore: getService: user_manager, android.os.BinderProxy@18a1e77
+05-13 12:38:48.519 30108 30126 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=84]
+05-13 12:38:48.520 30083 30083 D BlackBoxCore: getService: xposed_manager, android.os.BinderProxy@4216ae4
+05-13 12:38:48.521 30108 30126 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=84]
+05-13 12:38:48.523 30083 30083 D BlackBoxCore: getService: account_manager, android.os.BinderProxy@1242b4d
+05-13 12:38:48.524 30108 30126 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=88]
+05-13 12:38:48.525 30083 30083 D BlackBoxCore: getService: location_manager, android.os.BinderProxy@c261602
+05-13 12:38:48.526 30108 30126 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=96]
+05-13 12:38:48.527 30083 30083 D BlackBoxCore: getService: notification_manager, android.os.BinderProxy@e782b13
+05-13 12:38:48.528 30083 30083 W CheckTime: App running slow: Executing handleBindApplication : callApplicationOnCreate took 817ms
+05-13 12:38:48.539 30083 30083 D nativeloader: Load /data/app/~~UPeGIxiO4VdnuVFtzoBegg==/com.shadow.ui-kcXLgL6Q76J9Xv8A16IAjQ==/lib/arm64/libjohn.so using ns clns-4 from class loader (caller=/data/app/~~UPeGIxiO4VdnuVFtzoBegg==/com.shadow.ui-kcXLgL6Q76J9Xv8A16IAjQ==/base.apk!classes4.dex): ok
+05-13 12:38:48.539 30083 30083 W com.shadow.ui: Attempt to remove non-JNI local reference
+05-13 12:38:48.561 30083 30083 D AppTurboFactory: AppTurboFactory new
+05-13 12:38:48.568 30083 30083 D os.SingleLice: instance successfully. com.transsion.scrollshot.v1.ScrollShotImplLice@630656f from com.transsion.scrollshot.ScrollShotImplLiceFactory
+05-13 12:38:48.568 30083 30083 D os.SingleLiceFactory: instance successfully. com.transsion.scrollshot.v1.ScrollShotImplLice@630656f from android.view.IViewLice
+05-13 12:38:48.569 30083 30083 D os.LiceInfo: instance successfully. com.transsion.view.ViewLice@45d327c from android.view.IViewLice
+05-13 12:38:48.574 30083 30083 D os.SingleLice: instance successfully. com.transsion.freeform.v1.FreeformLice@487e98b from com.transsion.freeform.FreeformLiceFactory
+05-13 12:38:48.574 30083 30083 D os.SingleLiceFactory: instance successfully. com.transsion.freeform.v1.FreeformLice@487e98b from com.android.internal.IInternalViewLice
+05-13 12:38:48.575 30083 30083 D os.SingleLice: instance successfully. com.transsion.whitenavigation.v1.WhiteNavigationLice@388fa68 from com.transsion.whitenavigation.WhiteNavigationLiceFactory
+05-13 12:38:48.575 30083 30083 D os.SingleLiceFactory: instance successfully. com.transsion.whitenavigation.v1.WhiteNavigationLice@388fa68 from com.android.internal.IInternalViewLice
+05-13 12:38:48.576 30083 30083 D os.SingleLice: instance successfully. com.transsion.screenshothelper.v1.ScreenShotHelperImplLice@20e7e81 from com.transsion.screenshothelper.ScreenShotHelperImplLiceFactory
+05-13 12:38:48.576 30083 30083 D os.SingleLiceFactory: instance successfully. com.transsion.screenshothelper.v1.ScreenShotHelperImplLice@20e7e81 from com.android.internal.IInternalViewLice
+05-13 12:38:48.576 30083 30083 D os.LiceInfo: instance successfully. com.transsion.internal.InternalViewLice@37d5b26 from com.android.internal.IInternalViewLice
+05-13 12:38:48.618 30083 30083 W com.shadow.ui: Attempt to remove non-JNI local reference
+05-13 12:38:48.620 30083 30098 D ActivityThreadLice: received OSMessage 110001
+05-13 12:38:48.622 30083 30098 D ActivityThreadLice: send OSMessage 110001 to [-1]
+05-13 12:38:48.624 30083 30098 D OSServiceManager: update local os service os.activity from null to android.os.BinderProxy@b882457
+05-13 12:38:48.628 30083 30083 D MultiLinkManager: smart_link is not supported
+05-13 12:38:48.635 30083 30083 I SurfaceFactory: [static] sSurfaceFactory = com.transsion.rt.SurfaceFactoryImpl@770bd62
+05-13 12:38:48.685 30083 30131 W libc    : Access denied finding property "vendor.mali.config"
+05-13 12:38:48.736 30083 30146 I gralloc4: register: id=31d0004863c
+05-13 12:38:48.739 30083 30146 I gralloc4: register: id=31d0004863d
+05-13 12:38:48.742 30083 30146 I gralloc4: register: id=31d0004863e
+05-13 12:38:48.745 30083 30146 I gralloc4: register: id=31d0004863f
+05-13 12:38:49.522 30083 30083 W com.shadow.ui: Attempt to remove non-JNI local reference
+05-13 12:38:49.525 30083 30083 D nativeloader: Load /data/app/~~UPeGIxiO4VdnuVFtzoBegg==/com.shadow.ui-kcXLgL6Q76J9Xv8A16IAjQ==/lib/arm64/libSHADOW.so using ns clns-4 from class loader (caller=/data/app/~~UPeGIxiO4VdnuVFtzoBegg==/com.shadow.ui-kcXLgL6Q76J9Xv8A16IAjQ==/base.apk!classes4.dex): ok
+05-13 12:38:49.617 30083 30083 W com.shadow.ui: Attempt to remove non-JNI local reference
+05-13 12:38:49.617 30083 30083 W com.shadow.ui: Attempt to remove non-JNI local reference
+05-13 12:38:49.619 30083 30083 D MultiLinkManager: smart_link is not supported
+05-13 12:38:49.665 30083 30162 I gralloc4: register: id=31d00048640
+05-13 12:38:49.668 30083 30162 I gralloc4: register: id=31d00048641
+05-13 12:38:49.672 30083 30162 I gralloc4: register: id=31d00048642
+05-13 12:38:49.675 30083 30162 I gralloc4: register: id=31d00048643
+05-13 12:38:50.187 30083 30131 I gralloc4: unregister: id=31d0004863c
+05-13 12:38:50.187 30083 30131 I gralloc4: unregister: id=31d0004863d
+05-13 12:38:50.195 30083 30083 I gralloc4: unregister: id=31d0004863e
+05-13 12:38:50.195 30083 30083 I gralloc4: unregister: id=31d0004863f
+05-13 12:38:51.217 30083 30083 D CompatibilityChangeReporter: Compat change id reported: 163400105; UID 12236; state: DISABLED
+05-13 12:38:51.218 30083 30083 D InputMethodManager: showSoftInput() view=android.widget.EditText{2b28ad7 VFED..CL. .F.P..ID 9,0-510,85 #7f090202 app:id/pass aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+05-13 12:38:51.240 30083 30083 I AssistStructure: Flattened final assist data: 1904 bytes, containing 1 windows, 12 views
+05-13 12:38:51.543 30083 30083 D InsetsController: show(ime(), fromIme=true)
+05-13 12:38:52.722 30083 30083 D CompatibilityChangeReporter: Compat change id reported: 171228096; UID 12236; state: ENABLED
+05-13 12:38:52.743 30083 30083 E Dialog  : show dialog view = DecorView@80ac5a7[LoginActivity]
+05-13 12:38:52.743 30083 30083 W com.shadow.ui: Attempt to remove non-JNI local reference
+05-13 12:38:52.744 30083 30083 W com.shadow.ui: Attempt to remove non-JNI local reference
+05-13 12:38:52.746 30083 30083 W com.shadow.ui: Attempt to remove non-JNI local reference
+05-13 12:38:52.772 30083 30268 I gralloc4: register: id=31d00048648
+05-13 12:38:52.773 30083 30268 I gralloc4: register: id=31d00048649
+05-13 12:38:52.775 30083 30268 I gralloc4: register: id=31d0004864a
+05-13 12:38:52.777 30083 30268 I gralloc4: register: id=31d0004864b
+05-13 12:38:54.815 30083 30097 I gralloc4: unregister: id=31d00048649
+05-13 12:38:54.817 30083 30083 E Dialog  : remove dialog view = DecorView@80ac5a7[LoginActivity]
+05-13 12:38:54.832 30083 30097 I gralloc4: unregister: id=31d00048648
+05-13 12:38:54.834 30083 30097 I gralloc4: unregister: id=31d0004864b
+05-13 12:38:54.835 30083 30097 I gralloc4: unregister: id=31d0004864a
+05-13 12:38:54.851 30083 30083 E Dialog  : show dialog view = DecorView@f931d49[LoginActivity]
+05-13 12:38:54.870 30083 30285 I gralloc4: register: id=31d0004864c
+05-13 12:38:54.872 30083 30285 I gralloc4: register: id=31d0004864d
+05-13 12:38:54.873 30083 30285 I gralloc4: register: id=31d0004864e
+05-13 12:38:54.875 30083 30285 I gralloc4: register: id=31d0004864f
+05-13 12:38:57.746 30083 30100 I gralloc4: unregister: id=31d0004864f
+05-13 12:38:57.758 30083 30083 E Dialog  : remove dialog view = DecorView@f931d49[LoginActivity]
+05-13 12:38:57.763 30083 30175 I gralloc4: unregister: id=31d0004864e
+05-13 12:38:57.763 30083 30175 I gralloc4: unregister: id=31d0004864c
+05-13 12:38:57.764 30083 30175 I gralloc4: unregister: id=31d0004864d
+05-13 12:38:57.837 30083 30083 W com.shadow.ui: Attempt to remove non-JNI local reference
+05-13 12:38:57.869 30083 30083 E ThemeUtils: View class androidx.appcompat.widget.AppCompatImageButton is an AppCompat widget that can only be used with a Theme.AppCompat theme (or descendant).
+05-13 12:38:57.906 30083 30083 W com.shadow.ui: Attempt to remove non-JNI local reference
+05-13 12:38:58.060 30083 30083 I System.out: All files have been extracted to: /data/user/0/com.shadow.ui/files
+05-13 12:38:58.060 30083 30083 W com.shadow.ui: Attempt to remove non-JNI local reference
+05-13 12:38:58.060 30083 30083 W com.shadow.ui: Attempt to remove non-JNI local reference
+05-13 12:38:58.063 30083 30083 W com.shadow.ui: Attempt to remove non-JNI local reference
+05-13 12:38:58.082 30083 30083 E Dialog  : show dialog view = DecorView@67682b8[MainActivity]
+05-13 12:38:58.082 30083 30083 W com.shadow.ui: Attempt to remove non-JNI local reference
+05-13 12:38:58.083 30083 30083 W com.shadow.ui: Attempt to remove non-JNI local reference
+05-13 12:38:58.083 30083 30083 W com.shadow.ui: Attempt to remove non-JNI local reference
+05-13 12:38:58.085 30083 30083 W com.shadow.ui: Attempt to remove non-JNI local reference
+05-13 12:38:58.085 30083 30083 W com.shadow.ui: Attempt to remove non-JNI local reference
+05-13 12:38:58.086 30083 30083 W com.shadow.ui: Attempt to remove non-JNI local reference
+05-13 12:38:58.088 30083 30083 D MultiLinkManager: smart_link is not supported
+05-13 12:38:58.112 30083 30298 I gralloc4: register: id=31d00048651
+05-13 12:38:58.114 30083 30298 I gralloc4: register: id=31d00048652
+05-13 12:38:58.115 30083 30298 I gralloc4: register: id=31d00048653
+05-13 12:38:58.117 30083 30298 I gralloc4: register: id=31d00048654
+05-13 12:38:58.154 30083 30299 I gralloc4: register: id=31d00048655
+05-13 12:38:58.158 30083 30299 I gralloc4: register: id=31d00048656
+05-13 12:38:58.164 30083 30299 I gralloc4: register: id=31d00048657
+05-13 12:38:58.169 30083 30299 I gralloc4: register: id=31d00048658
+05-13 12:38:58.679 30083 30131 I gralloc4: unregister: id=31d00048640
+05-13 12:38:58.679 30083 30131 I gralloc4: unregister: id=31d00048641
+05-13 12:38:58.690 30083 30083 I gralloc4: unregister: id=31d00048642
+05-13 12:38:58.691 30083 30083 I gralloc4: unregister: id=31d00048643
+05-13 12:38:58.990 30083 30131 D OpenGLRenderer: endAllActiveAnimators on 0x7d5ca3dae0 (RippleDrawable) with handle 0x7c6c9e1520
+05-13 12:38:59.001 30083 30175 I gralloc4: unregister: id=31d00048653
+05-13 12:38:59.004 30083 30083 E Dialog  : remove dialog view = DecorView@67682b8[MainActivity]
+05-13 12:38:59.019 30083 30097 I gralloc4: unregister: id=31d00048652
+05-13 12:38:59.020 30083 30097 I gralloc4: unregister: id=31d00048654
+05-13 12:38:59.020 30083 30097 I gralloc4: unregister: id=31d00048651
+05-13 12:38:59.395 30083 30083 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 12236; state: DISABLED
+05-13 12:38:59.538 30083 30083 W IInputConnectionWrapper: requestCursorAnchorInfo on inactive InputConnection
+05-13 12:38:59.963 30083 30131 I gralloc4: unregister: id=31d00048656
+05-13 12:38:59.964 30083 30131 I gralloc4: unregister: id=31d00048658
+05-13 12:38:59.974 30083 30083 I gralloc4: unregister: id=31d00048655
+05-13 12:38:59.975 30083 30083 I gralloc4: unregister: id=31d00048657
+05-13 12:39:07.373 30083 30083 D MultiLinkManager: smart_link is not supported
+05-13 12:39:07.392 30083 30438 I gralloc4: register: id=31d0004865f
+05-13 12:39:07.395 30083 30438 I gralloc4: register: id=31d00048660
+05-13 12:39:07.398 30083 30438 I gralloc4: register: id=31d00048661
+05-13 12:39:07.402 30083 30438 I gralloc4: register: id=31d00048662
+05-13 12:39:09.237 30083 30083 W com.shadow.ui: Attempt to remove non-JNI local reference
+05-13 12:39:09.299 30083 30083 E Dialog  : show dialog view = DecorView@63f792e[MainActivity]
+05-13 12:39:09.332 30083 30451 I gralloc4: register: id=31d00048663
+05-13 12:39:09.333 30083 30451 I gralloc4: register: id=31d00048664
+05-13 12:39:09.335 30083 30451 I gralloc4: register: id=31d00048665
+05-13 12:39:09.337 30083 30451 I gralloc4: register: id=31d00048666
+05-13 12:39:10.578 30108 30126 W PackageParser: Unknown element under <manifest>: queries at /data/app/~~Fn_-HMSSO3n1sT_YonQ3CQ==/com.tencent.ig-rUWJBKSfe_prfhj0xTdTcw==/base.apk Binary XML file line #37
+05-13 12:39:10.621 30108 30126 W PackageParser: Unknown element under <application>: property at /data/app/~~Fn_-HMSSO3n1sT_YonQ3CQ==/com.tencent.ig-rUWJBKSfe_prfhj0xTdTcw==/base.apk Binary XML file line #1339
+05-13 12:39:10.729 30108 30126 W System  : ClassLoader referenced unknown path: /system/framework/transsion-services.jar
+05-13 12:39:10.731 30108 30126 I VerifyFacory: [static] sVerifyFacotry = com.transsion.xmlprotect.impl.VerifyFacotryImpl@882a21b
+05-13 12:39:10.752 30108 30126 D BPackageInstallerService: installPackageAsUser: CreateUserExecutor exec: 0
+05-13 12:39:10.755 30108 30126 D BPackageInstallerService: installPackageAsUser: CreatePackageExecutor exec: 0
+05-13 12:39:10.755 30108 30126 D BPackageInstallerService: installPackageAsUser: CopyExecutor exec: 0
+05-13 12:39:10.915 30108 30126 D Settings: loaded Package: com.tencent.ig
+05-13 12:39:10.915 30108 30126 D BroadcastManager: register: com.tencent.ig, size: 23
+05-13 12:39:10.946 30108 30126 D BPackageManagerService: onPackageInstalled: com.tencent.ig, userId: 0
+05-13 12:39:10.946 30108 30126 D BPackageManagerService: install finish: 946ms
+05-13 12:39:10.950 30083 30131 D OpenGLRenderer: endAllActiveAnimators on 0x7d5ca5eac0 (AlertController$RecycleListView) with handle 0x7c6ca1cfb0
+05-13 12:39:10.954 30083 30175 I gralloc4: unregister: id=31d00048664
+05-13 12:39:10.966 30083 30083 E Dialog  : remove dialog view = DecorView@63f792e[MainActivity]
+05-13 12:39:10.966 30083 30083 I Choreographer: Skipped 57 frames!  The application may be doing too much work on its main thread.
+05-13 12:39:10.973 30083 30175 I gralloc4: unregister: id=31d00048663
+05-13 12:39:10.973 30083 30175 I gralloc4: unregister: id=31d00048665
+05-13 12:39:10.974 30083 30175 I gralloc4: unregister: id=31d00048666
+05-13 12:39:11.656 30083 30083 W com.shadow.ui: Attempt to remove non-JNI local reference
+05-13 12:39:11.689 30083 30083 E Dialog  : show dialog view = DecorView@2b965ea[MainActivity]
+05-13 12:39:11.714 30083 30464 I gralloc4: register: id=31d00048667
+05-13 12:39:11.716 30083 30464 I gralloc4: register: id=31d00048668
+05-13 12:39:11.718 30083 30464 I gralloc4: register: id=31d00048669
+05-13 12:39:11.719 30083 30464 I gralloc4: register: id=31d0004866a
+05-13 12:39:12.467 30083 30131 I gralloc4: unregister: id=31d00048669
+05-13 12:39:12.468 30083 30131 I gralloc4: unregister: id=31d0004866a
+05-13 12:39:12.469 30083 30083 I gralloc4: unregister: id=31d00048668
+05-13 12:39:12.470 30083 30083 I gralloc4: unregister: id=31d00048667
+05-13 12:39:12.491 30083 30083 E Dialog  : remove dialog view = DecorView@2b965ea[MainActivity]
+05-13 12:39:12.491 30083 30083 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+05-13 12:39:13.067 30083 30083 W com.shadow.ui: Attempt to remove non-JNI local reference
+05-13 12:39:13.096 30083 30083 E Dialog  : show dialog view = DecorView@2917966[MainActivity]
+05-13 12:39:13.122 30083 30473 I gralloc4: register: id=31d0004866b
+05-13 12:39:13.128 30083 30473 I gralloc4: register: id=31d0004866c
+05-13 12:39:13.130 30083 30473 I gralloc4: register: id=31d0004866d
+05-13 12:39:13.132 30083 30473 I gralloc4: register: id=31d0004866e
+05-13 12:39:13.639 30108 30122 D BPackageInstallerService: uninstallPackageAsUser: RemoveAppExecutor exec: 0
+05-13 12:39:14.301 30108 30122 D BPackageInstallerService: uninstallPackageAsUser: RemoveUserExecutor exec: 0
+05-13 12:39:14.315 30108 30122 D BroadcastManager: unregisterReceiver Package: com.tencent.ig, size: 16
+05-13 12:39:14.336 30108 30122 D BPackageManagerService: onPackageUninstalled: com.tencent.ig, userId: 0
+05-13 12:39:14.338 30083 30131 I gralloc4: unregister: id=31d0004866c
+05-13 12:39:14.340 30083 30131 D OpenGLRenderer: endAllActiveAnimators on 0x7d5ca7a080 (AlertController$RecycleListView) with handle 0x7c6c9b7400
+05-13 12:39:14.356 30083 30175 I gralloc4: unregister: id=31d0004866b
+05-13 12:39:14.357 30083 30175 I gralloc4: unregister: id=31d0004866d
+05-13 12:39:14.358 30083 30175 I gralloc4: unregister: id=31d0004866e
+05-13 12:39:14.358 30083 30083 E Dialog  : remove dialog view = DecorView@2917966[MainActivity]
+05-13 12:39:14.358 30083 30083 I Choreographer: Skipped 43 frames!  The application may be doing too much work on its main thread.
+05-13 12:39:15.966 30083 30131 I gralloc4: unregister: id=31d0004865f
+05-13 12:39:15.966 30083 30131 I gralloc4: unregister: id=31d00048660
+05-13 12:39:15.980 30083 30083 I gralloc4: unregister: id=31d00048661
+05-13 12:39:15.985 30083 30083 I gralloc4: unregister: id=31d00048662
